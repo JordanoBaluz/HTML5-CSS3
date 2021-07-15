@@ -1,11 +1,38 @@
-.gato-perfil, .imagem-html {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    font-family: verdana;
+    max-width: 900px;
+    max-height: ;
+    margin: auto;
+}
+
+.first-header {
     width: 30%;
-    height: auto;
+    float: left;
+    display: block;
+    padding-right: 10px;
+}
+
+.first-section {
+    width: 70%;
+    float: right;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    display: block;
 }
 
 .gato-perfil {
     border: 1px solid #505050;
-    border-radius: 50%;
+    width: 100%;
+    margin-right: 5px;
+    margin-top: 25px;
 }
 
 #title, .subtitle, .post-title {
@@ -13,8 +40,16 @@
 }
 
 #title {
-    font-size: 40px;
+    font-size: 2rem;
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    background-color: #E0B589;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 a {
@@ -27,13 +62,6 @@ a {
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
-}
-
-body {
-    background: #ccc;
-    font-family: verdana;
-    max-width: 900px;
-    margin: auto;
 }
 
 .post {
