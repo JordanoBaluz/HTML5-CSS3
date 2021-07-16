@@ -6,7 +6,6 @@ body {
     background: #ccc;
     font-family: verdana;
     max-width: 900px;
-    max-height: ;
     margin: auto;
 }
 
@@ -32,7 +31,8 @@ footer {
     border: 1px solid #505050;
     width: 100%;
     margin-right: 5px;
-    margin-top: 25px;
+    margin-top: 20px;
+    border-radius: 7px;
 }
 
 #title, .subtitle, .post-title {
@@ -40,16 +40,19 @@ footer {
 }
 
 #title {
-    font-size: 2rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .subtitle{
-    background-color: #E0B589;
+    background-color: #d9d9d9;
     text-align: center;
     margin-bottom: 10px;
     padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 a {
@@ -62,6 +65,7 @@ a {
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .post {
@@ -93,4 +97,12 @@ a {
 
 .contact-list li a {
     text-decoration: none;
+}
+
+.footer-list {
+    background-color: #d9d9d9;
+    width: 100%;
+    float: right;
+    display: block;
+    border-radius: 5px;
 }
